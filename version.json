@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "beta": 10,
+  "beta": 11,
   "release_notes": "Bug fixes, Solar tab, PV support and improved stability.",
   "download_url": "https://github.com/redneckeyeball/marstek-monitor/raw/main/MarstekMonitor.zip"
 }
