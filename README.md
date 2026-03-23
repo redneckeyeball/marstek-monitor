@@ -348,6 +348,16 @@ Which Marstek batteries are supported ?
 - Venus D / E
 
 ================================================================================
+ PRIVACY
+================================================================================
+
+Marstek Monitor runs entirely on your local network.
+It does not collect, store or transmit any personal data.
+The only external connection is to forecast.solar for the solar forecast,
+which uses the GPS coordinates you provided to fetch weather data.
+No account, login or internet connection is required to use the core features.
+
+================================================================================
  SUPPORT
 ================================================================================
 
