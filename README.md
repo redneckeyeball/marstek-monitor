@@ -287,6 +287,10 @@ Solar forecast shows no data:
   - Open the Weather tab and click Settings to verify that your location
     and panel details are configured.
 
+Which Marstek batteries are supported ?
+- Venus A / C
+- Venus D / E    
+
 ================================================================================
  SUPPORT
 ================================================================================
