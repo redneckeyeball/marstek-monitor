@@ -9,28 +9,33 @@
 ================================================================================
 
 Marstek Monitor is not downloaded from the Mac App Store. Because of this,
-macOS will block the app from opening until you tell it to trust the file.
-This is a standard macOS security feature — not a problem with the app itself.
+macOS may block the app from opening. This is a standard macOS security
+feature — not a problem with the app itself.
 
-Follow these four steps and you will be up and running in under two minutes:
+Follow these steps and you will be up and running in under two minutes:
 
-  Step 1 — Unzip the downloaded file.
+  Step 1 — Drag MarstekMonitor.app to your Applications folder.
 
-  Step 2 — Drag MarstekMonitor.app to your Applications folder.
+  Step 2 — Double-click "install.command" in this window.
+           This automatically removes the macOS security restriction.
+           If macOS warns you about install.command itself:
+           Right-click it → Open → Open.
 
-  Step 3 — Open Terminal.
-           (Press CMD + Space, type Terminal, press Enter.)
-
-  Step 4 — Copy and paste this command into Terminal, then press Enter:
-
-               xattr -cr /Applications/MarstekMonitor.app
-
-           You will not see any output. That is normal — it means it worked.
-
-  Step 5 — Open MarstekMonitor from your Applications folder as usual.
+  Step 3 — Open MarstekMonitor from your Applications folder.
            A battery icon will appear in your menu bar.
 
-That is all. 
+That is all.
+
+SEE BELOW FOR TROUBLESHOOTING INSTRUCTIONS !
+Quick fix :
+  1. Open Terminal.
+     (Press CMD + Space, type Terminal, press Enter.)
+  2. Copy and paste this command and press Enter:
+
+         xattr -cr /Applications/MarstekMonitor.app
+
+  3. You will not see any output. That is normal — it means it worked.
+  4. Open MarstekMonitor from your Applications folder as usual.
 
 ================================================================================
  BEFORE YOU START — ENABLE THE LOCAL API
@@ -265,6 +270,57 @@ Open Settings by clicking the gear icon in the bottom bar of the dashboard.
  TROUBLESHOOTING
 ================================================================================
 
+================================================================================
+ IF install.command DOES NOT WORK
+================================================================================
+
+macOS may still block the app after running install.command.
+Try these steps in order until the app opens.
+
+--------------------------------------------------------------------------------
+ OPTION 1 — Open Anyway via System Settings
+--------------------------------------------------------------------------------
+
+  1. Try to open MarstekMonitor from your Applications folder.
+     macOS will show a warning and refuse to open it.
+  2. Open System Settings → Privacy & Security.
+  3. Scroll down until you see a message about MarstekMonitor
+     being blocked.
+  4. Click "Open Anyway".
+  5. Enter your Mac password if asked.
+  6. Click "Open" in the confirmation dialog.
+
+This option appears only shortly after a blocked launch attempt.
+If you do not see it, try to open the app first and then check
+System Settings immediately.
+
+--------------------------------------------------------------------------------
+ OPTION 2 — Right-click to open
+--------------------------------------------------------------------------------
+
+  1. Go to your Applications folder.
+  2. Right-click (or Control-click) MarstekMonitor.app.
+  3. Select "Open" from the menu.
+  4. Click "Open" in the confirmation dialog.
+
+macOS treats a right-click open as an explicit user approval,
+which bypasses the Gatekeeper block.
+
+--------------------------------------------------------------------------------
+ OPTION 3 — Manual Terminal command
+--------------------------------------------------------------------------------
+
+  1. Open Terminal.
+     (Press CMD + Space, type Terminal, press Enter.)
+  2. Copy and paste this command and press Enter:
+
+         xattr -cr /Applications/MarstekMonitor.app
+
+  3. You will not see any output. That is normal — it means it worked.
+  4. Open MarstekMonitor from your Applications folder as usual.
+
+--------------------------------------------------------------------------------
+
 App does not find my battery during network scan:
   - Make sure the local API is enabled in the Marstek phone app.
   - Make sure your Mac and battery are on the same network.
@@ -289,7 +345,7 @@ Solar forecast shows no data:
 
 Which Marstek batteries are supported ?
 - Venus A / C
-- Venus D / E    
+- Venus D / E
 
 ================================================================================
  SUPPORT
