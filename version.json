@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "beta": 18,
-  "release_notes": "Added 24h battery history (optional) and other small improvements",
+  "beta": 19,
+  "release_notes": "Floating window option, Weather Forecast, GridFlow Graph, many bugfixes and small improvements",
   "download_url": "https://github.com/redneckeyeball/marstek-monitor/releases/download/Latest/MarstekMonitor.Latest.Version.zip"
 }
