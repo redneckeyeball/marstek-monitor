@@ -1,6 +1,6 @@
 {
-  "version": "1.0",
-  "beta": 19,
-  "release_notes": "Floating window option, Weather Forecast, GridFlow Graph, many bugfixes and small improvements",
+  "version": "1.1",
+  "beta": 0,
+  "release_notes": "Option to set alarms. Flow Grid, Meters, Standby Power calculation, many bugfixes and small improvements",
   "download_url": "https://github.com/redneckeyeball/marstek-monitor/releases/download/Latest/MarstekMonitor.Latest.Version.zip"
 }
