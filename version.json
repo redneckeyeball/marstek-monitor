@@ -1,6 +1,6 @@
 {
-  "version": "1.4",
+  "version": "1.5",
   "beta": 0,
-  "release_notes": "Many bugfixes and UI improvements",
+  "release_notes": "UI update for the on-screen alarms",
   "download_url": "https://github.com/redneckeyeball/marstek-monitor/releases/download/Latest/MarstekMonitor.Latest.Version.zip"
 }
