@@ -1,6 +1,6 @@
 {
-  "version": "1.5",
+  "version": "1.6",
   "beta": 0,
-  "release_notes": "UI update for the on-screen alarms",
+  "release_notes": "NEW : Automatic Battery IP Change detection and update. FIX : Protect against false alarms",
   "download_url": "https://github.com/redneckeyeball/marstek-monitor/releases/download/Latest/MarstekMonitor.Latest.Version.zip"
 }
