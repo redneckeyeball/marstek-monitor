@@ -1,6 +1,6 @@
 {
-  "version": "1.6",
+  "version": "1.7",
   "beta": 0,
-  "release_notes": "NEW : Automatic Battery IP Change detection and update. FIX : Protect against false alarms",
+  "release_notes": "Bugfix : Battery that lost connection was not being renewed when it was back online",
   "download_url": "https://github.com/redneckeyeball/marstek-monitor/releases/download/Latest/MarstekMonitor.Latest.Version.zip"
 }
