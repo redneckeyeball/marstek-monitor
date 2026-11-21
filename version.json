@@ -1,6 +1,6 @@
 {
-  "version": "2.0",
+  "version": "2.6",
   "beta": 0,
-  "release_notes": "MarstekMonitor is now available on Apple App Store with powerful new features, including native iPhone and Android support. The classic Donationware version remains available and fully functional, though future features will be exclusive to the new paid version (€9.99). Thank you for your continued support, please switch to the appstore version. Download the zip file for more details and information.",
+  "release_notes": "Version 2.6 is now available on Apple App Store",
   "download_url": "https://github.com/redneckeyeball/marstek-monitor/releases/download/Latest/MarstekMonitor.Latest.Version.zip"
 }
