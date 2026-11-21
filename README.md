@@ -2,6 +2,12 @@
  Marstek Monitor — Installation & User Guide
 ================================================================================
 
+https://marstekmonitor.wixsite.com/home
+
+Please upgrade to the Apple app store version
+Download v2.x today and experience the next level of Marstek monitoring!
+👉 https://apps.apple.com/app/marstekmonitor/id6803633878
+
  Platform:  macOS 14 (Sonoma) or later — Apple Silicon and Intel
 
 ================================================================================
